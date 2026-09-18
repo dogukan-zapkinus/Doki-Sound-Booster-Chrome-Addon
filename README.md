@@ -4,8 +4,6 @@
 
 **Turn up your sound. Keep control.**
 
-<img src="Banner-1.png" width="100%">
-
 <p>
   <img src="https://img.shields.io/badge/Chrome-Manifest%20V3-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white">
   <img src="https://img.shields.io/badge/Volume-Up%20to%201000%25-7C3AED?style=for-the-badge">
