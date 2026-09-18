@@ -1,36 +1,51 @@
+<div align="center">
+
 # Doki Sound Booster
 
-Doki Sound Booster is a free, open-source Chrome extension that boosts the audio of the active tab using Manifest V3, `chrome.tabCapture`, an offscreen document, and the Web Audio API.
+**Turn up your sound. Keep control.**
 
-## Highlights
+<p>
+  <img src="https://img.shields.io/badge/Chrome-Manifest%20V3-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white">
+  <img src="https://img.shields.io/badge/Volume-Up%20to%201000%25-7C3AED?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Open%20Source-MIT-22C55E?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Privacy-Local%20Processing-06B6D4?style=for-the-badge">
+</p>
 
-- Up to **1000% volume boost**.
-- **Independent settings for each tab/site** so one tab does not inherit another tab's boost level.
-- Web Audio gain control with the existing dynamics-compression chain.
-- Lightweight Manifest V3 architecture.
-- No external backend and no account required.
-- English UI.
-- MIT licensed.
+<p>
+  A lightweight Chrome extension for boosting and controlling tab audio.
+</p>
 
-## Install locally
+</div>
 
-1. Open `chrome://extensions`.
-2. Enable **Developer mode**.
-3. Click **Load unpacked**.
-4. Select this project folder.
-5. Open a tab with audio, open Doki Sound Booster, set its boost level, and click **Start Boost**. Each tab/site keeps its own saved level.
+---
 
-## Developer
+## 🔊 What is Doki Sound Booster?
 
-**M. Doğukan Cengiz**
+**Doki Sound Booster** is a lightweight, open-source Chrome extension that gives you more control over the audio coming from your browser tabs.
 
-Support on Patreon: https://www.patreon.com/cw/dogukancengiz
+It can increase tab audio up to **1000%** and keeps volume preferences **separate by website**, so changing the volume on one site does not automatically change it on another.
 
-Thanks for using Doki Sound Booster!
+The project is built with Chrome's **Manifest V3** architecture and uses browser-side audio processing.
 
-### Reliability notes
+---
 
-- Site profiles are keyed by hostname, so changing YouTube videos does not change the saved YouTube volume.
-- Navigating from one website to another in the same tab stops the previous site session instead of leaking its gain into the new site.
-- The extension no longer stops capture on ordinary `loading` updates, preventing the common YouTube next-video mute/restart bug.
-- If a captured audio track unexpectedly ends, the extension attempts a short automatic recapture while the tab is still enabled.
+## ✨ Features
+
+- 🔊 **Up to 1000% Volume Boost**
+- 🌐 **Site-specific volume settings**
+- 🗂️ **Independent tab sessions**
+- 🎚️ **Live volume adjustment**
+- ⚡ **Lightweight browser-side processing**
+- 🔒 **Privacy-focused architecture**
+- 🧩 **Manifest V3**
+- 💾 **Saved volume preferences**
+
+### Site-specific audio
+
+Your settings can stay different for different websites:
+
+```text
+YouTube     → 700%
+Spotify     → 350%
+Netflix     → 500%
+Other site  → 150%
