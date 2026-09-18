@@ -1,88 +1,53 @@
+<div align="center">
+
 # Doki Sound Booster
 
-> **Turn up your sound. Keep control.**
+**Turn up your sound. Keep control.**
 
-Doki Sound Booster is a lightweight Chrome extension built for people who want more control over the audio coming from their browser tabs. It lets you increase tab volume up to **1000%**, keep **site-specific audio settings**, and adjust the current tab without changing the volume settings of other sites.
+<img src="assets/banner-1400x560.png" alt="Doki Sound Booster" width="100%">
 
-The project is **free and open source**.
+<p>
+  <img src="https://img.shields.io/badge/Chrome-Manifest%20V3-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white">
+  <img src="https://img.shields.io/badge/Volume-Up%20to%201000%25-7C3AED?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Open%20Source-MIT-22C55E?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Privacy-Local%20Processing-06B6D4?style=for-the-badge">
+</p>
 
-### What is Doki Sound Booster?
+<p>
+  A lightweight Chrome extension for boosting and controlling tab audio.
+</p>
 
-Doki Sound Booster is a lightweight, open-source Chrome extension made for people who want more control over the audio coming from their browser tabs.
-
-The idea is simple: when a video, music stream, or other web content is too quiet, you should be able to adjust that tab directly instead of constantly changing your system volume.
-
-### Main features
-
-* 🔊 **Up to 1000% volume boost** — Raise tab audio well beyond the browser's normal level.
-* 🌐 **Site-specific settings** — A setting saved for YouTube does not need to affect Spotify or other websites.
-* 🗂️ **Independent tab sessions** — Different tabs can maintain their own audio state.
-* 🎚️ **Simple volume control** — Quickly adjust the current tab from the extension interface.
-* ⚙️ **Audio processing support** — Built around browser-side audio processing and ready for additional controls.
-* 🔒 **Privacy-focused design** — Audio processing is performed locally in the browser.
-* 🧩 **Chrome Manifest V3** — Built using the modern Chrome extension architecture.
-
-### How it works
-
-Doki Sound Booster captures the audio stream of the selected tab and processes it locally with the Web Audio API. The requested gain level is applied before the processed audio is sent back to the output.
-
-Because settings are stored per site, you can use different levels such as:
-
-```text
-youtube.com  →  700%
-spotify.com  →  350%
-example.com  →  150%
-```
-
-without having to use the same value everywhere.
-
-### Installation
-
-1. Clone or download the repository.
-2. Open `chrome://extensions` in Chrome.
-3. Enable **Developer mode**.
-4. Click **Load unpacked**.
-5. Select the project folder.
-6. Open a tab that is playing audio and launch Doki Sound Booster.
-
-### Privacy
-
-Doki Sound Booster is designed to work locally in the browser. Audio does not need to be uploaded to a remote server for the extension to work.
-
-The extension permissions are used for:
-
-* `activeTab` → Interact with the tab the user explicitly activates.
-* `tabCapture` → Capture the tab's audio stream for processing.
-* `offscreen` → Run audio processing in an offscreen document.
-* `storage` → Save site-specific user preferences.
-
-### Development
-
-Some areas that are suitable for future improvements:
-
-* Advanced EQ controls
-* Bass and treble adjustment
-* Limiter and distortion protection
-* Real-time audio level visualization
-* More detailed site profiles
-* Improved popup design
-* Dedicated settings page
-
-Issues, feedback, and pull requests are welcome.
-
-### License
-
-This project is licensed under the **MIT License**.
+</div>
 
 ---
 
-## Developer
+## 🔊 What is Doki Sound Booster?
 
-**M. Doğukan Cengiz**
+**Doki Sound Booster** is a lightweight, open-source Chrome extension that gives you more control over the audio coming from your browser tabs.
 
-Doki Sound Booster is a free, open-source project focused on practical browser audio control.
+It can increase tab audio up to **1000%** and keeps volume preferences **separate by website**, so changing the volume on one site does not automatically change it on another.
 
-**Patreon:**
-[https://www.patreon.com/cw/dogukancengiz](https://www.patreon.com/cw/dogukancengiz)
+The project is built with Chrome's **Manifest V3** architecture and uses browser-side audio processing.
 
-Thanks for using **Doki Sound Booster**. ❤️
+---
+
+## ✨ Features
+
+- 🔊 **Up to 1000% Volume Boost**
+- 🌐 **Site-specific volume settings**
+- 🗂️ **Independent tab sessions**
+- 🎚️ **Live volume adjustment**
+- ⚡ **Lightweight browser-side processing**
+- 🔒 **Privacy-focused architecture**
+- 🧩 **Manifest V3**
+- 💾 **Saved volume preferences**
+
+### Site-specific audio
+
+Your settings can stay different for different websites:
+
+```text
+YouTube     → 700%
+Spotify     → 350%
+Netflix     → 500%
+Other site  → 150%
