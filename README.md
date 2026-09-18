@@ -4,7 +4,7 @@
 
 **Turn up your sound. Keep control.**
 
-<img src="assets/banner-1400x560.png" alt="Doki Sound Booster" width="100%">
+<img src="[assets/banner-1400x560.png](https://github.com/dogukan-zapkinus/Doki-Sound-Booster-Chrome-Addon/blob/assets/Banner-1.png)" alt="Doki Sound Booster" width="100%">
 
 <p>
   <img src="https://img.shields.io/badge/Chrome-Manifest%20V3-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white">
